@@ -1,0 +1,18 @@
+{
+    "_comment": "====Environment====",
+    "gpu_id": "0",
+    "img_pickle_file": "cifar_seed.pkl",
+    "model_file": "./models/nin_trojan_dark_red_1_1.h5",
+
+    "_comment": "====Neuron Sampling====",
+    "samp_k": 1,
+    "same_range": 0,
+    "n_samples": 5,
+    "samp_batch_size": 5,
+
+    "_comment": "====RE Mask====",
+    "troj_size": 64,
+    "w": 32,
+    "h": 32,
+    "num_classes": 10
+}
