@@ -7,7 +7,7 @@ This is repository for paper ABS: Scanning Neural Networks for Back-doors by  Ar
 Python 2, tensoflow=1.12.0, keras=2.2.4, imageio, numpy, pickle
 
 ## ABS
-Here we only provide binary file to execute ABS.
+Here we **only** provide binary file to execute ABS.
 
 You can edit `config.json` to change different models and settings for ABS. `models` contain 20 benign models and 21 compromised models. You can edit `config.json` to choose different models.
 
