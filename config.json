@@ -11,7 +11,7 @@
     "samp_batch_size": 5,
 
     "_comment": "====RE Mask====",
-    "troj_size": 64,
+    "max_troj_size": 64,
     "w": 32,
     "h": 32,
     "num_classes": 10
