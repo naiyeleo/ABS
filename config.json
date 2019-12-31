@@ -7,6 +7,7 @@
     "num_classes": 10,
     "w": 32,
     "h": 32,
+    "reasr_bound": 0.8,
 
     "_comment": "====Neuron Sampling====",
     "samp_k": 1,
