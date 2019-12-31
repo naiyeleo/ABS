@@ -15,7 +15,7 @@ The seed images for CIFAR-10 dataset is in `cifar_seed.pkl`, ABS reads in this f
 The preprossing code of input images is written in `preprocess.py`. ABS calls `cifar.py` and to provide your own preprocess function, just change the code in `cifar.py`.
 
 To run the code, 
-`python ./abs.pyc`
+`python run_abs.py`
 The program will output highest REASR for the model provided in `config.json`.
 Triggers with over 80% REASR is shown `imgs` folder. `deltas` and `masks` store the numpy array for such triggers.
 
