@@ -10,7 +10,7 @@
     "reasr_bound": 0.8,
 
     "_comment": "====Neuron Sampling====",
-    "samp_k": 1,
+    "samp_k": 4,
     "same_range": 0,
     "n_samples": 5,
     "samp_batch_size": 5,
