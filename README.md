@@ -11,7 +11,7 @@ Here we **only** provide binary file to execute ABS.
 
 You can edit `config.json` to change different models and settings for ABS. `models` contain 20 benign models and 21 compromised models. You can edit `config.json` to choose different models.
 
-The seed images for CIFAR-10 dataset is in `cifar_seed.pkl`, ABS reads in this file and perform analysis on these data.
+The seed images for CIFAR-10 dataset is in `cifar_seed_10.pkl` which contains 10 seed images, ABS reads in this file and perform analysis on these data. `cifar_seed_50.pkl` contains 50 seed images and running ABS on more images can increase stability.
 The preprossing code of input images is written in `preprocess.py`. ABS calls `cifar.py` and to provide your own preprocess function, just change the code in `cifar.py`.
 
 To run the code, 
