@@ -1,8 +1,8 @@
 {
     "_comment": "====Environment====",
     "gpu_id": "0",
-    "use_pickle": 0,
-    "use_h5": 1,
+    "use_pickle": 1,
+    "use_h5": 0,
     "random_seed": 333,
     "img_pickle_file": "cifar_seed_50.pkl",
     "model_file": "./models/nin_trojan_dark_red_1_1.h5",
