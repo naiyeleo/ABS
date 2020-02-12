@@ -4,7 +4,7 @@
 This is repository for paper ABS: Scanning Neural Networks for Back-doors by  Artificial Brain Stimulation. 
 
 ## Dependences
-Python 2, tensoflow=1.12.0, keras=2.2.4, imageio, numpy, pickle
+Python 2, tensoflow=1.12.0, keras=2.2.4, imageio, numpy, pickle, h5py
 
 ## ABS
 Here we **only** provide binary file to execute ABS.
@@ -21,6 +21,9 @@ Triggers with over 80% REASR is shown `imgs` folder. `deltas` and `masks` store 
 
 Currently, this version of ABS only work on CIFAR-10 dataset and may not support some structure. 
 Support for more dataset and structure is coming soon.
+
+Currently, ABS assumes the activation layer and conv/dense layer are seperated, i.e. the conv/dense layers do not have activation function and there is an activation layer after each dense/conv layer. 
+Please refer to `reformat_model.py` to see how to seperate activation layers from conv/dense layer.
 
 ## Contacts
 

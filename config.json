@@ -1,10 +1,12 @@
 {
     "_comment": "====Environment====",
     "gpu_id": "0",
+    "use_pickle": 0,
+    "use_h5": 1,
     "random_seed": 333,
-    "img_pickle_file": "cifar_seed_10.pkl",
+    "img_pickle_file": "cifar_seed_50.pkl",
     "model_file": "./models/nin_trojan_dark_red_1_1.h5",
-    "channel_last": "False",
+    "channel_last": 1,
     "num_classes": 10,
     "w": 32,
     "h": 32,
@@ -15,6 +17,7 @@
     "same_range": 0,
     "n_samples": 5,
     "samp_batch_size": 8,
+    "top_n_neurons": 20,
 
     "_comment": "====RE Mask====",
     "max_troj_size": 64,
