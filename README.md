@@ -3,11 +3,23 @@
 
 This is repository for paper ABS: Scanning Neural Networks for Back-doors by  Artificial Brain Stimulation. 
 
-## Dependences
+The repo contains two parts. The source code of ABS pytorch version used in TrojAI competition and the binary code of ABS tensorflow+keras version.
+
+## The source code of ABS pytorch version 
+
+This repo include source code of ABS pytorch version. 
+
+The source code of ABS pytorch version for TrojAI competition round 1 can be accessed at https://github.com/naiyeleo/ABS/blob/master/TrojAI_competition/round1/abs_pytorch_round1.py
+Round 1 code is the submission for 20200725T153001 of Perspecta team. This submission has 0.30 cross entropy and 0.91 roc-auc on test set and 0.281 cross entropy loss and 0.92 roc-auc on holdout set. 
+
+## The binary code of ABS tensorflow+keras version
+
+This repo also include the binary code of ABS tensorflow+keras version
+
+### Dependences
 Python 2, tensoflow=1.12.0, keras=2.2.4, imageio, numpy, pickle, h5py
 
-## ABS
-Here we **only** provide binary file to execute ABS.
+### File Description
 
 You can edit `config.json` to change different models and settings for ABS. `models` contain 20 benign models and 21 compromised models. You can edit `config.json` to choose different models.
 
