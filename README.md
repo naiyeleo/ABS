@@ -14,6 +14,7 @@ Round 1 code is the submission for 20200725T153001 of Perspecta team. This submi
 
 
 The source code of ABS pytorch version for TrojAI competition round 5 can be accessed at https://github.com/naiyeleo/ABS/blob/master/TrojAI_competition/round5
+Round 5 code is the submission for 20210316T161002 of Perspecta-PurdueRutgers team This submission has 0.32 cross entropy and 0.93 roc-auc and 0.26 cross entropy and 0.95 roc-auc on holdout set.
 
 
 ## The binary code of ABS tensorflow+keras version
