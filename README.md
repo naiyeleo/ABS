@@ -3,7 +3,7 @@
 
 This is repository for paper ABS: Scanning Neural Networks for Back-doors by  Artificial Brain Stimulation. 
 
-The repo contains two parts. The source code of ABS pytorch version used in TrojAI competition and the binary code of ABS tensorflow+keras version.
+The repo contains two parts. The source code of ABS pytorch version used in TrojAI competition and the source code of ABS tensorflow+keras version.
 
 ## The source code of ABS pytorch version 
 
@@ -17,9 +17,9 @@ The source code of ABS pytorch version for TrojAI competition round 5 can be acc
 Round 5 code is the submission for 20210316T161002 of Perspecta-PurdueRutgers team This submission has 0.32 cross entropy and 0.93 roc-auc and 0.26 cross entropy and 0.95 roc-auc on holdout set.
 
 
-## The binary code of ABS tensorflow+keras version
+## The source code of ABS tensorflow+keras version
 
-This repo also include the binary code of ABS tensorflow+keras version
+This repo also include the source code of ABS tensorflow+keras version
 
 ### Dependences
 Python 2, tensoflow=1.12.0, keras=2.2.4, imageio, numpy, pickle, h5py
@@ -32,7 +32,7 @@ The seed images for CIFAR-10 dataset is in `cifar_seed_10.pkl` which contains 10
 The preprossing code of input images is written in `preprocess.py`. ABS calls `cifar.py` and to provide your own preprocess function, just change the code in `cifar.py`.
 
 To run the code, 
-`python run_abs.py`
+`python abs.py`
 The program will output highest REASR for the model provided in `config.json`.
 Triggers with over 80% REASR is shown `imgs` folder. `deltas` and `masks` store the numpy array for such triggers.
 
