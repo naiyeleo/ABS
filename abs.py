@@ -7,6 +7,7 @@ import sys
 import json
 np.set_printoptions(precision=2, linewidth=200, threshold=10000)
 
+os.system('mkdir -p ./temp')
 with open('config.json') as config_file:
     config = json.load(config_file)
 
