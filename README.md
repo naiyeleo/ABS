@@ -37,7 +37,7 @@ The program will output highest REASR for the model provided in `config.json`.
 Triggers with over 80% REASR is shown `imgs` folder. `deltas` and `masks` store the numpy array for such triggers.
 
 Currently, this version of ABS only work on CIFAR-10 dataset and may not support some structure. 
-Support for more dataset and structure is coming soon.
+You can change the `abs.py` to work your structure.
 
 Currently, ABS assumes the activation layer and conv/dense layer are seperated, i.e. the conv/dense layers do not have activation function and there is an activation layer after each dense/conv layer. 
 Please refer to `reformat_model.py` to see how to seperate activation layers from conv/dense layer.
