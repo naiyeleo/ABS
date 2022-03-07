@@ -1,0 +1,2 @@
+The problem with this unit is that there are no specifications for the AC adapter and the plug in hole for an AC adapter does not show what the voltage, current, or polarity is for the adapter. (Such as "Tip is +" or "nn volts [DC or AC?]" or "nnn ma"). And no AC adapter is listed or available as an option for this device. In addition, no batteries are supplied with this device contrary to the advertised listing.
+hollidayp1 150425-2
