@@ -9,8 +9,8 @@ The repo contains two parts. The source code of ABS pytorch version used in Troj
 
 This repo include source code of ABS pytorch version. 
 
-The source code of ABS pytorch version for TrojAI competition round 1 can be accessed at https://github.com/naiyeleo/ABS/blob/master/TrojAI_competition/round1/abs_pytorch_round1.py
-Round 1 code is the submission for 20200725T153001 of Perspecta team. This submission has 0.30 cross entropy and 0.91 roc-auc on test set and 0.281 cross entropy loss and 0.92 roc-auc on holdout set. 
+The source code of ABS pytorch version for TrojAI competition round 1-4 can be accessed at https://github.com/naiyeleo/ABS/blob/master/TrojAI_competition/
+The ABS for TrojAI competition is enchanced for better performance. For example, during trigger reverse engineering besides the loss for stimulating compromised neuron we also include the loss that enlarge the target label's logits value.  
 
 
 The source code of ABS pytorch version for TrojAI competition round 5 can be accessed at https://github.com/naiyeleo/ABS/blob/master/TrojAI_competition/round5
