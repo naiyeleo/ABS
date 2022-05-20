@@ -13,13 +13,6 @@ Round 3 code is the submission for 20201111T185002 of Perspecta-PurdueRutgers te
 ## Round 4
 Round 4 code is the submission for 20210120T222001 of Perspecta-PurdueRutgers team. This submission has 0.32 cross entropy and 0.90 roc-auc on test set and 0.34 cross entropy loss and 0.90 roc-auc on holdout set
 
+## NLP Rounds
 
-
-## Round 5
-Round 5 code is the submission for  20210316T161002 of Perspecta-PurdueRutgers team This submission has 0.32 cross entropy and 0.93 roc-auc and 0.26 cross entropy and 0.95 roc-auc on holdout set.
-
-To detect whether a model is trojaned, please run `sample_normal_embs_abs_submit.py`. The classifier file `rf_lr_abs4.pkl` which `sample_normal_embs_abs_submit.py` depends is too large so I do not upload on github. To train this classifier, first run `sample_normal_embs_abs.py` to generate samples and then run `classify_normal_embs_abs1_5.py` to generate classifier `rf_lr_abs4.pkl`.
-
-
-## Round 6
-Round 6 code is the submission for  20210416T231002 of Perspecta-PurdueRutgers team This submission has 0.26 cross entropy and 0.94 roc-auc and 0.30 cross entropy and 0.92 roc-auc on holdout set.
+The NLP rounds(round 5 to 7) can be accessed at https://github.com/PurduePAML/PICCOLO
